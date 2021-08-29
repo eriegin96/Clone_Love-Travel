@@ -1,0 +1,50 @@
+:root {
+	--header-height: 873px;
+	--navbar-height: 104px;
+
+	--subnav-height: 4.6rem;
+	--subnav-width: 19rem;
+	--subnav-padding: 2.5rem;
+
+	--next-holiday-bg-height: 23.5rem;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	font-family: 'Poppins', 'Helvetica', 'Arial', 'sans-serif';
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+	text-decoration: none;
+}
+
+.full-width {
+	position: relative;
+	right: 50%;
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: calc(100vw);
+	width: calc(100vw);
+}
+
+u {
+	position: relative;
+	z-index: 1;
+}
+
+u::after {
+	content: '';
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+	height: 0.5rem;
+	width: 100%;
+	z-index: -1;
+}
+

@@ -1,0 +1,136 @@
+@media (min-width: 1023px) {
+    .search-bar__item {
+        flex: 0 0 20%;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    #header {
+        height: 135rem;
+    }
+    .bg-img {
+        height: 140rem;
+    }
+    .navbar {
+        padding: 0;
+        flex-direction: column;
+    }
+    .navbar__list,
+    .navbar-btn {
+        display: none;
+    }
+    .navbar-menu-pc {
+        display: none;
+    }
+    .navbar-menu-mobile {
+        display: block;
+    }
+    .search-bar {
+        padding-top: 5rem;
+    }
+    .search-bar__des {
+        padding-top: 2.5rem;
+    }
+    .search-bar__btn {
+        right: 0;
+    }
+    .search-bar__category {
+        width: 100%;
+    }
+    .search-bar__item {
+        margin: 2rem;
+    }
+    .next-holiday__bg-link {
+        margin-top: 4rem;
+    }
+
+
+
+    .sticker {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .destinations__item {
+        height: 66rem;
+    }
+    .next-holiday__main {
+        height: 90rem;
+    }
+    .next-holiday__content {
+        padding: 0;
+    }
+    .next-holiday__clock {
+        left: unset;
+        width: 100%;
+        transform: translateX(0);
+    }
+    .next-holiday__options {
+        margin-top: 8rem;
+    }
+    .discover {
+        height: 54rem;
+    }
+    .footer__contact-form {
+        margin-top: 3rem;
+    }
+    .footer-img {
+        height: 95rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .bg-img {
+        height: 135rem;
+    }
+    .destinations__item {
+        height: 34.5rem;
+    }
+    .next-holiday__bg .row {
+        margin: 0;
+    }
+    .next-holiday__main {
+        height: 100rem;
+    }
+    .next-holiday__selection {
+        top: 0;
+    }
+    .next-holiday__clock {
+        position: unset;
+        left: unset;
+        transform: unset;
+        width: unset;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: 35rem;
+        padding: 0;
+    }
+    .next-holiday__time {
+        width: 100%;
+        padding-top: 1.5rem;
+        flex: 1;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .next-holiday__content {
+        height: 60rem;
+        padding: 4rem 0;
+        margin: 0;
+    }
+    .next-holiday__slider {
+        height: 22rem;
+    }
+    .next-holiday__options {
+        margin-top: 7rem;
+    }
+    .footer-img {
+        height: 150rem;
+    }
+    .footer__contact-form {
+        margin-top: 4rem;
+        flex-wrap: wrap;
+    }
+}
